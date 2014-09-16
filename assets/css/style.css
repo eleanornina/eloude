@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+/* font-family: 'Lobster', sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Josefin+Sans|Open+Sans|Julius+Sans+One);
+/* Font families:
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+*/
+
+/*reset styles*/
+body, html, * {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 16pt;
+	line-height: 20pt;
+}
+
+/* Header Styles */
+
+.header {
+	background-color: #fcfcfc;
+	width: 100vw;
+	min-height: 30px;
+	padding: 10px;
+	box-shadow: 0px 0px 10px #CCC;
+}
+
+.header .text-logo a {
+	font-family: 'Lobster', cursive;
+	font-size: 2rem;
+	line-height: 1.7rem;
+	float: left;
+	display: inline !important;
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+.header .text-logo:hover a {
+	color: #ccc;
+}
+
+.header .navbar {
+	float: right;
+	display: inline !important;
+	padding-right: 10px;
+}
+
+.header .navbar ul li {
+	list-style-image: none;
+	float: left;
+	display: block;
+	margin-right: 10px;
+	font-size: 1rem;
+}
+
+.header .navbar ul li a {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+.header .navbar ul li a:hover {
+	color: #ccc;
+}
+
+.header .navbar ul li a.button {
+	margin-top: -4px;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+/*Hero Styling*/
+.hero {
+	height: 50vh;
+	background-image: url('../img/bg1.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.hero h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	padding-top: 14.5vh;
+}
+
+.hero .button {
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	border-radius: 5px;
+	margin: 14.5vh auto;
+}
+
+.button {
+	background-color: #CCC;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 600;
+	-webkit-transition: background-color 1s, color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s, color 1s;
+}
+
+.button:hover {
+	background-color: #333;
+	color: #888;
+}
+
+/* Features Styling */
+.icon {
+	width: 50px;
+}

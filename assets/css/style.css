@@ -55,3 +55,41 @@ body {
 	margin-right: 10px;
 	font-size: 1rem;
 }
+
+.header .navbar ul li.button {
+	margin-top: -4px;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+/*Hero Styling*/
+.hero {
+	height: 50vh;
+	background-image: url('../img/bg1.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.hero h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	padding-top: 14.5vh;
+}
+
+.button {
+	background-color: #CCC;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.hero .button {
+	padding: 10px;
+	text-align: center;
+	width: 140px;
+	border-radius: 5px;
+	margin: 14.5vh auto;
+}

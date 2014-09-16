@@ -16,7 +16,7 @@ body, html, * {
 	position: relative;
 }
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-decoration: none;
@@ -34,12 +34,20 @@ body {
 	box-shadow: 0px 0px 10px #CCC;
 }
 
-.header .text-logo {
+.header .text-logo a {
 	font-family: 'Lobster', cursive;
 	font-size: 2rem;
 	line-height: 1.7rem;
 	float: left;
 	display: inline !important;
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+.header .text-logo:hover a {
+	color: #ccc;
 }
 
 .header .navbar {
@@ -56,7 +64,18 @@ body {
 	font-size: 1rem;
 }
 
-.header .navbar ul li.button {
+.header .navbar ul li a {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+.header .navbar ul li a:hover {
+	color: #ccc;
+}
+
+.header .navbar ul li a.button {
 	margin-top: -4px;
 	border-radius: 3px;
 	padding: 5px 10px;
@@ -79,17 +98,29 @@ body {
 	padding-top: 14.5vh;
 }
 
+.hero .button {
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	border-radius: 5px;
+	margin: 14.5vh auto;
+}
+
 .button {
 	background-color: #CCC;
 	text-decoration: none;
 	color: #ffffff;
 	font-weight: 600;
+	-webkit-transition: background-color 1s, color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s, color 1s;
 }
 
-.hero .button {
-	padding: 10px;
-	text-align: center;
-	width: 140px;
-	border-radius: 5px;
-	margin: 14.5vh auto;
+.button:hover {
+	background-color: #333;
+	color: #888;
+}
+
+/* Features Styling */
+.icon {
+	width: 50px;
 }

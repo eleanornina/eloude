@@ -6,13 +6,10 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Julius Sans One', sans-serif;
 */
-body{
-	font-family: 'Josefin Sans', sans-serif;
+p{
+	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
-	height: 100%;
-}
-.example{
-	background-color: #CCC;
+	font-size: .7em;
 }
 .small-1, .medium-1, .large-1 {
 	width: 8.33%;
@@ -61,93 +58,48 @@ body{
 .small-12, .medium-12, .large-12 {
 	width: 100%;
 }
+
+/* --------------- Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	img {width: 100%;}
 	h1{font-size: 1em;}
 }
 
-/* --------------- Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-	img {
-		width: 100%;	
-	}
-	h1{
-		font-size: 1em;
-	}
-}
-
-
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-	img {
-		width: 100%;	
-	}
-	h1{
-		font-size: 1.7em;
-	}
+
+@media only screen and (max-width: 320px) {
+	img{width: 100%}
+	h1{font-size: 1.7em;}
 }
+
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-	img {
-		width: 100%;	
-	}
-	h1{
-		font-size: 2em;
-	}
+@media only screen and (min-width: 321px){
+	img{width: 100%;}
+	h1{font-size: 2em;}
+	
 }
-
-
 
 /* ------------------ Tablets (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-	img {
-		width: 100%;	
-	}
-	h1{
-		font-size: 2.7em;
-	}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	img{width: 100%;}
+	h1{font-size: 2.7em;}	
 }
 
-
 /* Tablets (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-	img {
-		width: 100%;	
-	}
-	h1{
-		font-size: 3em;
-	}
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px) and (orientation: portrait) {
+	img{width: 100%;}
+	h1 {font-size: 3em;}	
 }
 
 /* Tablets (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-	img {
-		width: 100%;	
-	}
-	h1{
-		font-size: 3.7em;
-	}
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px) and (orientation: landscape) {
+	img{width: 100%;}
+	h1{font-size: 3.7em;}
 }
 
-
-
 /* ---------------------- Desktops  ----------- */
-@media only screen 
-and (min-width : 1440px) {
-	img {
-		width: 100%;	
-	}
+@media only screen and (min-width: 1440px){
+	img{width: 100%;}
+	h1{font-size: 4em;}
 }

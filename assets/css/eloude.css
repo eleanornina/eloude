@@ -8,12 +8,24 @@ font-family: 'Julius Sans One', sans-serif;
 */
 p{
 	font-family: 'Open Sans', sans-serif;
-	overflow-x: hidden;
 	font-size: .7em;
 }
 h1, h2, h3, h4, h5, h6{
 	margin-top: .2em;
 	margin-bottom: .5em;
+}
+a:link{
+	color:#ee739b;
+	text-decoration: none;
+}
+a:visited{
+	color: #ee384b;
+}
+a:hover{
+	color: #ee4659;
+}
+a:active{
+
 }
 .small-1, .medium-1, .large-1 {
 	width: 8.33%;

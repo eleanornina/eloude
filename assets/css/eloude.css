@@ -108,21 +108,21 @@ a:active{
 
 @media only screen and (max-width: 320px) {
 	img{width: 100%}
-	h1{font-size: 1.7em;}
+	h1{font-size: 2em;}
 }
 
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px){
 	img{width: 100%;}
-	h1{font-size: 1.7em;}
+	h1{font-size: 2em;}
 	
 }
 
 /* ------------------ Tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	img{width: 100%;}
-	h1{font-size: 2em;}	
+	h1{font-size: 2.7em;}	
 }
 
 /* Tablets (portrait) ----------- */
@@ -140,14 +140,9 @@ a:active{
 /* ---------------------- Desktops  ----------- */
 @media only screen and (min-width: 1440px){
 	img{width: 100%;}
-<<<<<<< HEAD
 	h1{font-size: 3.1em;}
 	h2{font-size: 2.65em;}
 	h3{font-size: 2.45em;}
 	h4{font-size: 2.25em;}
 	h5{font-size: 2.05em;}
 }
-=======
-	h1{font-size: 3em;}
-}
->>>>>>> 080c6fd038778b614f7b537e158c031d06fdecbf

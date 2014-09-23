@@ -6,6 +6,25 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Julius Sans One', sans-serif;
 */
+.columns {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	float: left; 
+	clear: both;
+	}
+
+.row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: .7em;
@@ -121,9 +140,14 @@ a:active{
 /* ---------------------- Desktops  ----------- */
 @media only screen and (min-width: 1440px){
 	img{width: 100%;}
+<<<<<<< HEAD
 	h1{font-size: 3.1em;}
 	h2{font-size: 2.65em;}
 	h3{font-size: 2.45em;}
 	h4{font-size: 2.25em;}
 	h5{font-size: 2.05em;}
 }
+=======
+	h1{font-size: 3em;}
+}
+>>>>>>> 080c6fd038778b614f7b537e158c031d06fdecbf

@@ -138,6 +138,11 @@ body {
 	text-align: center;
 }
 
+.grid .columns{
+	background: #ccc;
+	border: solid #666;
+}
+
 /* Footer Styling */
 .footer {
 	background-color: #888;

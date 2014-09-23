@@ -120,7 +120,11 @@ body {
     transition: background-color 1s, color 1s;
 }
 
-.button:hover {
+.button a {
+	color: #ffffff !important;
+}
+
+.button:hover, .button a:hover {
 	background-color: #333;
 	color: #888;
 }

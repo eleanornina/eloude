@@ -85,37 +85,37 @@ a:active{
 
 @media only screen and (max-width: 320px) {
 	img{width: 100%}
-	h1{font-size: 2em;}
+	h1{font-size: 1em;}
 }
 
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px){
 	img{width: 100%;}
-	h1{font-size: 2em;}
+	h1{font-size: 1.7em;}
 	
 }
 
 /* ------------------ Tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	img{width: 100%;}
-	h1{font-size: 2.7em;}	
+	h1{font-size: 2em;}	
 }
 
 /* Tablets (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width:1024px) and (orientation: portrait) {
 	img{width: 100%;}
-	h1 {font-size: 3em;}	
+	h1 {font-size: 2.7em;}	
 }
 
 /* Tablets (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width:1024px) and (orientation: landscape) {
 	img{width: 100%;}
-	h1{font-size: 3.7em;}
+	h1{font-size: 2.7em;}
 }
 
 /* ---------------------- Desktops  ----------- */
 @media only screen and (min-width: 1440px){
 	img{width: 100%;}
-	h1{font-size: 4em;}
+	h1{font-size: 3em;}
 }

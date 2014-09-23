@@ -79,6 +79,10 @@ a:active{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	img {width: 100%;}
 	h1{font-size: 1em;}
+	h2{font-size: .8em;}
+	h3{font-size: .6em;}
+	h4{font-size: .4em;}
+	h5{font-size: .2em;}
 }
 
 /* Smartphones (portrait) ----------- */
@@ -117,5 +121,9 @@ a:active{
 /* ---------------------- Desktops  ----------- */
 @media only screen and (min-width: 1440px){
 	img{width: 100%;}
-	h1{font-size: 3em;}
+	h1{font-size: 3.1em;}
+	h2{font-size: 2.65em;}
+	h3{font-size: 2.45em;}
+	h4{font-size: 2.25em;}
+	h5{font-size: 2.05em;}
 }

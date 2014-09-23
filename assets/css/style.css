@@ -130,6 +130,13 @@ body {
 	width: 50px;
 }
 
+/* Grid Styling */
+.grid {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 75%;	
+	text-align: center;
+}
 
 /* Footer Styling */
 .footer {

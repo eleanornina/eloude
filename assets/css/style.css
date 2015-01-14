@@ -1,14 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-/* font-family: 'Lobster', sans-serif; */
-@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Josefin+Sans|Open+Sans|Julius+Sans+One);
-/* Font families:
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Julius Sans One', sans-serif;
-*/
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
-/*reset styles*/
 body, html, * {
 	margin: 0;
 	padding: 0;
@@ -16,8 +7,8 @@ body, html, * {
 	position: relative;
 }
 body {
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-style: normal;
 	text-decoration: none;
 	font-size: 16pt;
@@ -52,6 +43,8 @@ section {
 	padding: 10px;
 	box-shadow: 0px 0px 10px #CCC;
 	z-index: 9999999999;
+	position: fixed;
+	top: 0;
 }
 
 .header .text-logo a {
@@ -87,8 +80,11 @@ section {
 .header .navbar ul li a {
 	color: #000;
 	text-decoration: none;
-	-webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 3px;
 }
 
 .header .navbar ul li a:hover {
@@ -123,16 +119,19 @@ section {
 	text-align: center;
 	width: 200px;
 	border-radius: 5px;
-	margin: 14.5vh auto;
+	margin: 5.5vh auto;
 }
 
 .button {
 	background-color: #CCC;
 	text-decoration: none;
 	color: #ffffff !important;
-	font-weight: 600;
-	-webkit-transition: background-color 1s, color 1s; /* For Safari 3.1 to 6.0 */
-    transition: background-color 1s, color 1s;
+	font-weight: 100;
+	-webkit-transition: background-color 1s, color 1s;
+	transition: background-color 1s, color 1s;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 12px
 }
 
 .button a {
